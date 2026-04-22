@@ -133,7 +133,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
+	"#222222", /* 258 -> bg */
 	"#ebdbb2", /* 259 -> fg */
 };
 
@@ -161,7 +161,7 @@ unsigned int background = 258;
  * 7: blinking st cursor
  * 8: steady st cursor
  */
-static unsigned int cursorstyle = 1;
+static unsigned int cursorstyle = 2;
 static Rune stcursor = 0x2603; /* snowman ("☃") */
 
 /*
